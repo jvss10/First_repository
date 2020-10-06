@@ -1,3 +1,5 @@
+#setting working directory
+
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 
@@ -13,3 +15,4 @@ DF <- read.csv("") %>%
 
 
 # Anything else ----
+
